@@ -70,23 +70,7 @@ npm install
 Crie um arquivo `.env` na raiz do projeto (não versionado). **Este arquivo está listado no `.gitignore` e não será enviado ao repositório remoto, mantendo suas credenciais seguras.** Exemplo de variáveis necessárias:
 
 ```env
-PORT=5000
 
-# Banco de dados
-DATABASE_URL=postgresql://user:senha@host:porta/nome_do_banco
-
-# Firebase Web SDK (front-end)
-VITE_FIREBASE_API_KEY=AIzaSy...seu_web_api_key
-VITE_FIREBASE_PROJECT_ID=laboratorio-evcs
-VITE_FIREBASE_APP_ID=1:1234567890:web:abcdef123456
-
-# Firebase Admin SDK (back-end)
-FIREBASE_PROJECT_ID=laboratorio-evcs
-FIREBASE_CLIENT_EMAIL=service-account@laboratorio-evcs.iam.gserviceaccount.com
-FIREBASE_PRIVATE_KEY="-----BEGIN PRIVATE KEY-----
-MIIEv...seu_private_key...
------END PRIVATE KEY-----
-"
 ```
 
 ### 4. Execute migrations do banco
